@@ -1,0 +1,3 @@
+[submodule "alirez_claude_skills"]
+	path = alirez_claude_skills
+	url = https://github.com/adamtasteslikegood/alirez-claude-skills.git

@@ -1,0 +1,37 @@
+{
+  "general": {
+    "enableNotifications": true,
+    "defaultApprovalMode": "auto_edit"
+  },
+  "experimental": {
+    "directWebFetch": true,
+    "modelSteering": true,
+    "plan": false
+  },
+  "security": {
+    "autoAddToPolicyByDefault": true,
+    "enablePermanentToolApproval": true
+  },
+  "tools": {
+    "shell": {
+      "showColor": true
+    }
+  },
+  "ui": {
+    "showModelInfoInChat": true,
+    "showUserIdentity": true,
+    "useBackgroundColor": true,
+    "loadingPhrases": "all",
+    "errorVerbosity": "full"
+  },
+  "billing": {
+    "overageStrategy": "always"
+  },
+  "model": {
+    "name": "gemini-3.1-pro-preview",
+    "disableLoopDetection": true
+  },
+  "context": {
+    "loadMemoryFromIncludeDirectories": true
+  }
+}
